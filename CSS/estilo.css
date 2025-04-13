@@ -1,1 +1,14 @@
-git init
+.carousel-control-prev span,
+.carousel-control-next span {
+  background: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+  color: #212529 !important; /* Color oscuro */
+  font-size: 2.5rem !important; /* Tamaño grande */
+  box-shadow: none !important;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%; 
+}
+
