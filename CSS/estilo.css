@@ -1,14 +1,18 @@
-.carousel-control-prev span,
-.carousel-control-next span {
-  background: none !important;
-  border: none !important;
-  border-radius: 0 !important;
-  color: #212529 !important; /* Color oscuro */
-  font-size: 2.5rem !important; /* Tamaño grande */
-  box-shadow: none !important;
-}
-.carousel-control-prev,
-.carousel-control-next {
-  width: 5%; 
+
+.sucursal-card {
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  border-radius: 16px;
 }
 
+.sucursal-card img {
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.sucursal-card:hover img {
+  transform: scale(1.08);
+}
